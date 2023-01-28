@@ -29,7 +29,6 @@ public class ApplicationStartup implements CommandLineRunner {
         StockDBModel stock5 = new StockDBModel(5, "cisco", new BigDecimal(321.74), new Date());
 
         List<StockDBModel> stockList = Arrays.asList(stock1, stock2, stock3, stock4, stock5);
-        //TODO how to avoid inserting these entries again to database after inserting.
         List<StockDBModel> totalRecords = stockRepository.saveAll(stockList);
 
         log.debug("{} Total records inserted into db.", totalRecords.size());
