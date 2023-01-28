@@ -2,6 +2,7 @@
 
 #### Step 1: Clone the project
     git clone https://github.com/rakeshrepository/stockapplication.git
+[ Github repository ] https://github.com/rakeshrepository/stockapplication.git
 
 #### Step 2: Enter to stockapplication folder
     cd /stockapplication
